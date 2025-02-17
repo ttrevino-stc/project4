@@ -1,5 +1,6 @@
 <script setup>
 import {ref, computed} from 'vue'
+import TimerDisplay from './components/TimerDisplay.vue'
 
 const timeInput = ref(null)
 const timeLeft = ref(0)
@@ -45,7 +46,7 @@ const stopCountdown = () => {
     <button @click="startCountdown" id="startBtn">Start</button>
     <button @click="stopCountdown" id="stopBtn">Stop</button>
 
-    <h2 id="timerDisplay">{{ formattedTime }}</h2>
+    <TimerDisplay :formattedTime="formattedTime"/>
 
   </div>
 </template>
