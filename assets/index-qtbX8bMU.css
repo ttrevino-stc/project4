@@ -1,0 +1,1 @@
+body{font-family:Arial,sans-serif;text-align:center;background-color:#e3f2fd}.container{margin-top:100px}input{padding:10px;font-size:18px;width:150px;text-align:center}button{padding:10px 20px;font-size:18px;margin:10px;border:none;cursor:pointer}#startBtn{background-color:green;color:#fff}#stopBtn{background-color:red;color:#fff}#timerDisplay{font-size:3em;margin-top:20px}
